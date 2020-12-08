@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
 @charset "UTF-8";
 * {
   border: none;
   position: relative;
-  font-family: 微軟正黑體;
+  font-family: Goldman;
   vertical-align: top;
 }
 
@@ -21,13 +22,13 @@ html, body {
 .chatroom {
   width: 500px;
   padding: 35px;
-  background-color: #000008;
-  border-radius: 10px;
+  background-color: #021f38;
+  border-radius: 5px;
 }
 .chatroom .overflow {
   overflow-y: scroll;
-  background-color: #d7e609;
-  border-radius: 10px;
+  background-color: #0D0D0D;
+  border-radius: 5px;
 }
 .chatroom .overflow .chatarea {
   height: 350px;
@@ -36,8 +37,8 @@ html, body {
 .chatroom .overflow .chatarea .new {
   border: none;
   margin-top: 5px;
-  left: 10px;
-  color: white;
+  left: 15px;
+  color:white;
 }
 .chatroom .textarea {
   border: 0px;
@@ -45,24 +46,26 @@ html, body {
 }
 .chatroom .textarea input {
   margin-top: 30px;
-  width: 420px;
+  width: 390px;
   height: 30px;
-  border-radius: 10px;
+  border-radius: 5px;
+
   background-color: white;
 }
 .chatroom .textarea .sendbtn {
   width: 100px;
-  height: 50px;
-  border-radius: 10px;
+  height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: -40px;
-  left: 450px;
-  font-size: 15px;
-  background-color: white;
+  margin-top: -32px;
+  left: 400px;
+  font-size: 13px;
+  background-color:#0ABF04;
+  border-radius:5px;
+  color: white;
 }
 .chatroom .textarea .sendbtn:hover {
-  background-color: #ddd;
+  background-color:#0D0D0D;
   cursor: pointer;
 }
