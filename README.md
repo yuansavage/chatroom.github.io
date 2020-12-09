@@ -10,4 +10,5 @@ All the messages here are synchronized.
 ![gif](https://i.imgur.com/ybJaXX1.gif)
 
 ## Description
-1. 
+1. Type the text in the white blocks.
+2. Push the "Chat" button or enter to send the message.
