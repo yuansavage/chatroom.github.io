@@ -11,4 +11,4 @@ All the messages here are synchronized.
 
 ## Description
 1. Type the text in the white blocks.
-2. Push the "Chat" button or enter to send the message.
+2. Click the "Chat" button or enter to send the message.
